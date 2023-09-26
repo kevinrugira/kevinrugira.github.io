@@ -1,0 +1,76 @@
+/* Reset some default styles for browsers */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set a background color and font for the body */
+body {
+    background-color: #f0f0f0;
+    font-family: "Times New Roman", Times, serif;
+}
+
+/* Create a container to center the content and add spacing */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Style the header with a background color, text color, and padding */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+/* Style the navigation menu */
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Style sections with padding and a border to separate content */
+section {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+}
+
+/* Style headings and paragraphs */
+h1, h2, h3 {
+    font-family: Arial, sans-serif; /* Use Arial for headings */
+    color: #333;
+}
+
+p {
+    line-height: 1.5;
+}
+
+/* Style links */
+a {
+    color: #007bff; /* Blue link color */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
+/* Add media query for mobile responsiveness */
+@media (max-width: 768px) {
+    /* Adjust styles for smaller screens here */
+    .container {
+        padding: 10px;
+    }
+}
