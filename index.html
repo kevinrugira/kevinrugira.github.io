@@ -8,141 +8,107 @@
 </head>
 <style>
     /* Reset some default styles for browsers */
-body, h1, h2, h3, p, ul, li {
-    margin: 0;
-    padding: 0;
-}
-
-/* Set a background color and font for the body */
-body {
-    background-color: #f0f0f0;
-    font-family: "Times New Roman", Times, serif;
-}
-
-/* Create a container to center the content and add spacing */
-.container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 20px;
-}
-
-/* Style the header with a background color, text color, and padding */
-header {
-    background-color: #333;
-    color: #fff;
-    padding: 20px 0;
-}
-
-/* Style the navigation menu */
-nav ul {
-    list-style: none;
-}
-
-nav ul li {
-    display: inline;
-    margin-right: 20px;
-}
-
-nav a {
-    text-decoration: none;
-    color: #fff;
-}
-
-/* Style sections with padding and a border to separate content */
-section {
-    background-color: #fff;
-    padding: 20px;
-    margin-bottom: 20px;
-    border: 1px solid #ccc;
-}
-
-/* Style headings and paragraphs */
-h1, h2, h3 {
-    font-family: Arial, sans-serif; /* Use Arial for headings */
-    color: #333;
-}
-
-p {
-    line-height: 1.5;
-}
-
-/* Style links */
-a {
-    color: #007bff; /* Blue link color */
-    text-decoration: none;
-}
-
-a:hover {
-    text-decoration: underline; /* Underline on hover */
-}
-
-/* Add media query for mobile responsiveness */
-@media (max-width: 768px) {
-    /* Adjust styles for smaller screens here */
-    .container {
-        padding: 10px;
+    body, h1, h2, h3, p, ul, li {
+        margin: 0;
+        padding: 0;
     }
-}
+
+    /* Update body style for the vintage look */
+    body {
+        background-color: #faebd0; /* Real wood paper color */
+        font-family: 'Courier New', Courier, monospace; /* Typewriter font */
+        color: #333;
+    }
+
+    /* Create a container to center the content and add spacing */
+    .container {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 20px;
+    }
+
+    /* Style the header with a background color, text color, and padding */
+    header {
+        background-color: #333;
+        color: #faebd0; /* Changed text color for better contrast */
+        padding: 20px 0;
+        border-bottom: 2px solid #fff; /* Adding a border to separate the header */
+    }
+
+    /* ... (other existing styles) ... */
+
+    /* Add style for the new title */
+    .title {
+        font-family: 'Courier New', Courier, monospace; /* Typewriter font */
+        font-size: 36px; /* Make the font size bigger */
+        text-align: center; /* Center the title */
+        margin-bottom: 40px; /* Add some space below the title */
+        color: #333; /* Text color */
+    }
 </style>    
 <body>
     <header>
-        <h1>Kevin Rugira</h1>
-        <nav>
-            <ul>
-                <li><a href="#about">About</a></li>
-                <li><a href="#resume">Resume</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#blog">Health and Bio Blog</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
+        <div class="container">
+            <h1>Kevin Rugira</h1>
+            <nav>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#resume">Resume</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#blog">Health and Bio Blog</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
-    
-    <section id="about">
-    <h2>About Kevin Rugira</h2>
-    <p>
-        Hello, I'm Kevin Rugira, a 22-year-old with a passion for the intersection of Life Sciences and data science. I hold a Bachelor of Science degree in Biochemistry from the University of Nebraska-Lincoln, and my mission is to leverage this unique blend of disciplines to enhance people's daily lives.
-    </p>
-    <p>
-        When I'm not immersed in the world of data and molecules, you can find me exploring other passions. I find solace in coding, where I bring my ideas to life in the digital realm. Off the screen, I'm often found lifting weights, competing in pickup volleyball or basketball games, or engrossed in the latest biotech discoveries.
-    </p>
-    <p>
-        This website is a window into my journey, a place where I hope to share insights, projects, and discoveries with those who have stumbled upon it. Whether you're here to explore my programming endeavors, engage in discussions about biotechnology, or simply connect, welcome aboard!
-    </p>
-</section>
 
+    <!-- Adding the new title -->
+    <div class="title">Data-Driven Bio</div>
     
-    <section id="resume">
-    <h2>Resume</h2>
-    <p>You can access my professional resume/CV by clicking <a href="https://github.com/kevinrugira/kevinrugira.github.io/raw/main/Kevin%20R.%20Rugira%20resume.pdf" target="_blank">here</a>.</p>
-</section>
+    <div class="container">
+        <section id="about">
+            <h2>About Kevin Rugira</h2>
+            <p>
+                Hello, I'm Kevin Rugira, a 22-year-old with a passion for the intersection of Life Sciences and data science. I hold a Bachelor of Science degree in Biochemistry from the University of Nebraska-Lincoln, and my mission is to leverage this unique blend of disciplines to enhance people's daily lives.
+            </p>
+            <p>
+                When I'm not immersed in the world of data and molecules, you can find me exploring other passions. I find delight in coding, where I bring my ideas to life in the digital realm. Off the screen, I'm often found lifting weights, competing in pickup volleyball or basketball games, or engrossed in the latest biotech discoveries.
+            </p>
+            <p>
+                This website is a window into my journey, a place where I hope to share insights, projects, and discoveries with those who have stumbled upon it. Whether you're here to explore my programming endeavors, engage in discussions about biotechnology, or simply connect, welcome aboard!
+            </p>
+        </section>
 
-    
-    <section id="projects">
-        <h2>Projects</h2>
-        <p>This personal website is my first project, where I showcase my skills in web development and share information about my background and interests in the fields of health and bioinformatics.</p>
-    </section>
-    
-    <section id="blog">
-        <h2>Health and Bio Blog</h2>
-        <p>The first blog post is coming soon on October 10th, 2023. Stay tuned for updates!</p>
-    </section>
-    
-    <section id="contact">
-    <h2>Contact</h2>
-    <p>
-        Feel free to get in touch with me using the following methods:
-    </p>
-    <ul>
-        <li>Email: <a href="mailto:krugira2@huskers.edu">krugira2@huskers.edu</a></li>
-        <li>Phone: <a href="tel:+14024809729">+1 (402) 480-9729</a></li>
-        <li>LinkedIn: <a href="https://www.linkedin.com/in/kevin-rugira-671636287">LinkedIn Profile</a></li>
-        <li>Instagram: <a href="https://www.instagram.com/rugira_kevin/">Instagram Profile</a></li>
-    </ul>
-    <p>
-        I'm always open to connecting with fellow enthusiasts, professionals, and anyone interested in the exciting worlds of data science, biotechnology, and more. Feel free to reach out, and let's start a conversation!
-    </p>
-</section>
+        <section id="resume">
+            <h2>Resume</h2>
+            <p>You can access my professional resume/CV by clicking <a href="https://github.com/kevinrugira/kevinrugira.github.io/raw/main/Kevin%20R.%20Rugira%20resume.pdf" target="_blank">here</a>.</p>
+        </section>
 
+        <section id="projects">
+            <h2>Projects</h2>
+            <p>This personal website is my first project, where I showcase my skills in web development and share information about my background and interests in the fields of health and bioinformatics.</p>
+        </section>
+
+        <section id="blog">
+            <h2>Health and Bio Blog</h2>
+            <p>The first blog post is coming soon on October 10th, 2023. Stay tuned for updates!</p>
+        </section>
+
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>
+                Feel free to get in touch with me using the following methods:
+            </p>
+            <ul>
+                <li>Email: <a href="mailto:krugira2@huskers.edu">krugira2@huskers.edu</a></li>
+                <li>Phone: <a href="tel:+14024809729">+1 (402) 480-9729</a></li>
+                <li>LinkedIn: <a href="https://www.linkedin.com/in/kevin-rugira-671636287">LinkedIn Profile</a></li>
+                <li>Instagram: <a href="https://www.instagram.com/rugira_kevin/">Instagram Profile</a></li>
+            </ul>
+            <p>
+                I'm always open to connecting with fellow enthusiasts, professionals, and anyone interested in the exciting worlds of data science, biotechnology, and more. Feel free to reach out, and let's start a conversation!
+            </p>
+        </section>
+    </div>
 </body>
 </html>
