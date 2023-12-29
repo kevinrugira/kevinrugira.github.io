@@ -1,76 +1,80 @@
-/* Reset some default styles for browsers */
-body, h1, h2, h3, p, ul, li {
+/* Basic Reset */
+* {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
-/* Set a background color and font for the body */
 body {
-    background-color: #f0f0f0;
-    font-family: "Times New Roman", Times, serif;
+    font-family: 'Courier New', Courier, monospace; /* Typewriter font */
+    color: #333;
+    background-color: #faebd0; /* Real wood paper color */
 }
 
-/* Create a container to center the content and add spacing */
-.container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 20px;
-}
-
-/* Style the header with a background color, text color, and padding */
 header {
-    background-color: #333;
-    color: #fff;
+    background-color: #663300; /* Dark wood color for contrast */
+    color: #faebd0;
     padding: 20px 0;
+    border-bottom: 2px solid #fff; /* Adding a border to separate the header */
 }
 
-/* Style the navigation menu */
 nav ul {
     list-style: none;
-}
-
-nav ul li {
-    display: inline;
-    margin-right: 20px;
+    display: flex;
+    justify-content: flex-end;
+    padding: 0 10%;
 }
 
 nav a {
+    color: #faebd0;
     text-decoration: none;
+    padding: 0 10px;
+    font-size: 1.2em;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
     color: #fff;
+    text-decoration: underline;
 }
 
-/* Style sections with padding and a border to separate content */
-section {
-    background-color: #fff;
+.title {
+    font-family: 'Courier New', Courier, monospace; /* Typewriter font */
+    font-size: 36px; /* Make font size bigger */
+    text-align: center; /* Center the title */
+    margin-bottom: 40px; /* Add some space below the title */
+    color: #333; /* Text color */
+}
+
+main section {
+    padding: 50px 10%;
+    background-size: cover;
+    background-position: center;
+    min-height: 500px; /* Adjust the height as necessary */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.content {
+    background: rgba(255, 255, 255, 0.8); /* Semi-transparent white background for content readability */
     padding: 20px;
-    margin-bottom: 20px;
-    border: 1px solid #ccc;
+    border-radius: 10px;
+    max-width: 800px; /* Adjust as necessary for layout */
+    margin: auto;
 }
 
-/* Style headings and paragraphs */
-h1, h2, h3 {
-    font-family: Arial, sans-serif; /* Use Arial for headings */
-    color: #333;
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
 }
 
-p {
-    line-height: 1.5;
-}
-
-/* Style links */
-a {
-    color: #007bff; /* Blue link color */
-    text-decoration: none;
-}
-
-a:hover {
-    text-decoration: underline; /* Underline on hover */
-}
-
-/* Add media query for mobile responsiveness */
-@media (max-width: 768px) {
-    /* Adjust styles for smaller screens here */
-    .container {
-        padding: 10px;
+@media screen and (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+        align-items: center;
     }
-}
+
+
